@@ -1,0 +1,33 @@
+{
+  "name": "olvan-ce-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjaSten17/olvan-ce-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninjaSten17/olvan-ce-website/issues"
+  },
+  "homepage": "https://github.com/ninjaSten17/olvan-ce-website#readme",
+  "dependencies": {
+    "next": "^13.4.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "frontmatter-markdown-loader": "^3.7.0"
+  }
+}
